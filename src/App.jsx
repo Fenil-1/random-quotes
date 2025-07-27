@@ -48,6 +48,7 @@ function App() {
 
         {/* Quote Box */}
         <Paper
+        id='quote-box'
           elevation={4}
           sx={{
             p: 4,
@@ -57,21 +58,21 @@ function App() {
             textAlign: 'center',
           }}
         >
-          <Typography variant="h6" sx={{ mb: 2 }}>
+          <Typography id='text' variant="h6" sx={{ mb: 2 }}>
             "{quote}"
           </Typography>
-          <Typography variant="subtitle1" sx={{ fontStyle: 'italic', mb: 3 }}>
+          <Typography id='author' variant="subtitle1" sx={{ fontStyle: 'italic', mb: 3 }}>
             — {author}
           </Typography>
-          <Button href='https://x.com/'>
+          <Button id="tweet-quote" href="twitter.com/intent/tweet" >
             <XIcon />
           </Button>
-          <Button href='https://x.com/'>
+          {/* <Button href='https://x.com/'>
             <XIcon />
-          </Button>
+          </Button> */}
           
 
-          <Button variant="contained" onClick={handleChange} >
+          <Button id="new-quote" variant="contained" onClick={handleChange} >
             New Quote
           </Button>
         </Paper>
