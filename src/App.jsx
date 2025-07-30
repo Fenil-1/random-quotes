@@ -16,6 +16,14 @@ function App() {
     {
       quote : 'I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.' , 
       author : 'Bruce Lee'
+    },
+    {
+      quote : "I DECLARE BANKRUPTCY!", 
+      author : 'Michael Scott'
+    },
+    {
+      quote : "I am fast. To give you a reference point. I’m somewhere between a snake and a mongoose... and a panther." , 
+      author : 'Dwight Schrute'
     }
   ]
 
